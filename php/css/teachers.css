@@ -1,0 +1,196 @@
+body {
+  background: #c9c6c3;
+  font-family: 'Raleway', sans-serif;
+  background:url(https://i.pinimg.com/736x/94/2a/21/942a21f55fbe7d4e7b8a783670b23e95.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav {
+  margin: auto;
+  margin-top: -155px;
+  position: relative;
+  width: 50vw;
+  min-width: 320px;
+  height: 200px;
+}
+
+header {
+  margin: auto;
+  margin-top: 10px;
+  position: relative;
+  width: 60vw;
+  min-width: 320px;
+  height: 200px;
+}
+
+
+
+header h2 {
+  border-radius: 2px;
+  position: relative;
+  text-align: center;
+  background: rgb(45, 94, 5);
+  height: 40px;
+  padding-top: 10px;
+  color: rgb(248, 248, 246);
+  font-weight: 220;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 15px -1px rgba(0,0,0,.35);
+  transition: all .4s;
+}
+
+nav h2 {
+  border-radius: 2px;
+  position: relative;
+  background: rgb(66, 134, 9);
+  height: 40px;
+  color: ivory;
+  font-weight: 200;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 20px -2px rgba(0,0,0,.35);
+  transition: all .4s;
+}
+
+nav:hover h2{
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 5px -1px rgba(0,0,0,.35);
+ }
+nav:hover:active h2{
+  transform: translateY(10px);
+  box-shadow: 0px -1px 2px 0px rgba(0,0,0,.35);
+ }
+
+input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  cursor: pointer;
+  height: 40px;
+}
+
+#toggle:checked ~ul {
+  height: 0%;
+}
+
+nav ul {
+  padding-left: 0;
+  padding-top: 0;
+  margin-top: -10px;
+  list-style: none;
+  overflow: hidden;
+  text-align: right;
+  margin-bottom: 22px;
+  text-align: center;
+  transition: all .5s ease-out;
+  height: 100%;
+  
+}
+nav ul li {
+  border-radius: 2px;
+  position: relative;
+  display: inline-block;
+  margin-left: 35px;
+  line-height: 2;
+  width: 100%;
+  margin: 3px;
+  margin-bottom: 5px;
+  background: rgb(67, 202, 4);
+  transition: background 1.5s;
+  box-shadow: 2px 2px 10px -2px rgba(0,0,0,.35);
+}
+
+nav ul li:hover {
+  background: rgb(170, 201, 164);
+  transition: background .45s;
+}
+
+nav ul a {
+  display: block;
+  color: rgb(240, 240, 236);
+  font-size: 18px;
+  font-weight: 450;
+  font-style:italic;
+  text-decoration: none;
+  transition: color .4s;
+}
+
+div button_r[type=submit] {
+width: 86px;
+height: 22px;
+position:absolute;
+top: 48px;
+right: 60px;
+background: rgb(168, 84, 45);
+border: 1px solid rgba(2, 2, 2, 0.6);
+cursor: pointer;
+border-radius: 2px;
+color: #f3f3f7;
+font-size: 20px;
+font-weight: 450;
+text-align-last: center;
+padding: 6px;
+margin-top: 20px;
+}
+
+div button_r:hover{
+background: rgb(117, 47, 7);
+transition: background .45s;
+}
+
+div button[type=submit] {
+  width: 100px;
+  height: 35px;
+  position:absolute;
+  top: 8px;
+  right: 60px;
+	background: rgb(168, 84, 45);
+	border: 1px solid rgba(2, 2, 2, 0.6);
+	cursor: pointer;
+	border-radius: 2px;
+	color: #f3f3f7;
+	font-size: 20px;
+	font-weight: 450;
+	padding: 6px;
+  margin-top: 20px;
+}
+
+div button:hover{
+  background: rgb(117, 47, 7);
+  transition: background .45s;
+}
+
+div input[type=text] {
+    width: 250px;
+    height: 30px;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+}
+
+div input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+div user {
+        position:absolute;
+        top: 0px;
+        right: 10px;
+        color: #248606;
+        font-size: 20px;
+        font-weight: 450;
+        font-style: italic;
+}

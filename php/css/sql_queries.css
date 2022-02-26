@@ -1,0 +1,317 @@
+body {
+  background: #c9c6c3;
+  font-family: 'Raleway', sans-serif;
+  background:url(https://i.pinimg.com/736x/94/2a/21/942a21f55fbe7d4e7b8a783670b23e95.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  margin: auto;
+  margin-top: 10px;
+  position: relative;
+  width: 60vw;
+  min-width: 320px;
+  height: 200px;
+}
+
+header h2 {
+  border-radius: 2px;
+  position: relative;
+  text-align: center;
+  background: rgb(45, 94, 5);
+  height: 40px;
+  padding-top: 10px;
+  color: rgb(248, 248, 246);
+  font-weight: 220;
+  justify-content: center;
+  align-items: center;
+  text-align-last: center;
+  box-shadow: 2px 2px 15px -1px rgba(0,0,0,.35);
+  transition: all .4s;
+}
+
+div.scroll {
+  width:900px;
+  overflow-y:scroll;
+  height:230px;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  
+}
+
+div table {
+  width: 100%; 
+  border: 2; 
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: center;
+  padding: 8px;
+}
+
+tbody td {
+  text-align: center;
+  padding: 8px;
+}
+
+thead th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tbody tr{
+  background-color: white;
+}
+
+tbody tr:hover{
+  background-color: rgb(213, 228, 10);
+}
+div button[type=submit] {
+  height: 35px;
+  position:absolute;
+	background: rgb(168, 84, 45);
+	border: 1px solid rgba(2, 2, 2, 0.6);
+	cursor: pointer;
+	border-radius: 2px;
+	color: #f3f3f7;
+	font-size: 20px;
+	font-weight: 450;
+	padding: 6px;
+  margin-top: 20px;
+}
+
+div h2{
+  position: fixed; /* or absolute */
+  align-self: center;
+  top: 22%;
+  right: 25%;
+  /* bring your own prefixes */
+  transform: translate(top, right);
+  color: #2b8109;
+}
+
+div h3{
+  align-self: center;
+  position: fixed; /* or absolute */
+  top: 26%;
+  right: 31%;
+  /* bring your own prefixes */
+  transform: translate(top, right);
+}
+
+div h1{
+  align-self: center;
+  position: fixed; /* or absolute */
+  top: 15%;
+  right: 26%;
+  /* bring your own prefixes */
+  transform: translate(top, right);
+  color: #9e7506;
+}
+
+div form[name=update_form]{
+  width: 30%;
+  position: fixed; /* or absolute */
+  top: 26%;
+  right: 20%;
+  /* bring your own prefixes */
+  transform: translate(top, right);
+}
+
+div form[name=search_id]{
+  width: 30%;
+  position: fixed; /* or absolute */
+  top: 26%;
+  right: 28%;
+  /* bring your own prefixes */
+  transform: translate(top, right);
+}
+
+div form[name=search_name]{
+  width: 30%;
+  position: fixed; /* or absolute */
+  top: 36%;
+  right: 28%;
+  /* bring your own prefixes */
+  transform: translate(top, right);
+}
+
+div form[name=search_surname]{
+  width: 30%;
+  position: fixed; /* or absolute */
+  top: 46%;
+  right: 28%;
+  /* bring your own prefixes */
+  transform: translate(top, right);
+}
+
+div form input{
+  border: 2px solid rgb(16, 109, 4);
+  border-radius: 4px;
+  padding: 4px 4px;
+  margin: 2px 0;
+  box-sizing: border-box;
+  align-items: left;
+  align-self: left;
+  margin-left: 10px;
+}
+
+div form input[name=update_b]{
+  position: fixed; /* or absolute */
+  top: 69%;
+  right: 33%;
+  /* bring your own prefixes */
+  transform: translate(top, right);
+}
+
+div form input[name=search_id]{
+  position: fixed; /* or absolute */
+  top: 22%;
+  right: 25%;
+  /* bring your own prefixes */
+  transform: translate(top, right);
+}
+
+div form input[name=search_name]{
+  position: fixed; /* or absolute */
+  top: 32%;
+  right: 21%;
+  /* bring your own prefixes */
+  transform: translate(top, right);
+}
+
+div form input[name=search_surname]{
+  position: fixed; /* or absolute */
+  top: 42.5%;
+  right: 17.5%;
+  /* bring your own prefixes */
+  transform: translate(top, right);
+}
+
+div input[type=submit] {
+  height: 35px;
+  position:absolute;
+	background: rgb(168, 84, 45);
+	border: 1px solid rgba(2, 2, 2, 0.6);
+	cursor: pointer;
+	border-radius: 2px;
+	color: #f3f3f7;
+	font-size: 18px;
+	font-weight: 450;
+	padding: 6px;
+  margin-top: 20px;
+}
+
+.l_btn{
+    width: 100px;
+    position: fixed; /* or absolute */
+    top: 1.7%;
+    right: 5%;
+    /* bring your own prefixes */
+    transform: translate(top, right);
+}
+
+.r_btn{
+    width: 100px;
+    position: fixed; /* or absolute */
+    top: 8.5%;
+    right: 5%;
+    /* bring your own prefixes */
+    transform: translate(top, right);
+}
+
+.action_btn{
+    width: 160px;
+    position: fixed; /* or absolute */
+    top: 92%;
+    right: 45%;
+    /* bring your own prefixes */
+    transform: translate(top, right);
+}
+
+div button:hover{
+  background: rgb(117, 47, 7);
+  transition: background .45s;
+}
+
+div input[type=submit]:hover{
+  background: rgb(117, 47, 7);
+  transition: background .45s;
+}
+
+div user {
+        position:absolute;
+        top: 0px;
+        right: 10px;
+        color: #248606;
+        font-size: 20px;
+        font-weight: 450;
+        font-style: italic;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+form div input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+  
+form div label {
+    padding: 12px 12px 10px 0;
+    display: inline-block;
+}
+
+form div text {
+  padding: 12px 12px 10px 0;
+  display: inline-block;
+}
+  
+.container {
+    width:60%;
+    position:relative;
+    top:-157px;
+    right:-550px;
+    border-radius: 5px;
+    background-color:transparent;
+    padding: 10px;
+}
+  
+.col-20 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+  
+.col-50 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+

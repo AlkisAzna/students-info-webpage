@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.welcome{
+	position: fixed;
+	font-size: 16px;
+	color: white;
+	top: 50%;
+	right: 50%;
+	width: auto;
+	height: auto;
+	transform: translate(top, right);
+}
+.body{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -20px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: url(https://elements-video-cover-images-0.imgix.net/files/44cb5afa-08fb-4ea5-8403-c80426c159bf/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=394&w=700&s=0399af0e28f1faabf3d65bf3d3e1ee38)no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: 0;
+}
+
+.grad{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	z-index: 1;
+	opacity: 0.7;
+}
+
+.header{
+	position: absolute;
+	top: calc(50% - 50px);
+	left: calc(50% - 300px);
+	z-index: 2;
+}
+
+.header text{
+	position: absolute;
+	top: calc(50% - 140px);
+	right: calc(50% - 360px);
+	font-size: 28px;
+	color: #f1a42f;
+	font-display: bold;
+	font-family: Calibri;
+	font-style: italic;
+	
+}
+
+.header div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-display:bold;
+	font-style:italic;
+}
+
+.header div span{
+	color: #5379fa !important;
+}
+
+.login{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(50% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=submit]{
+	width: 260px;
+	height: 35px;
+	background: rgb(16, 13, 212);
+	border: 1px solid rgba(106, 100, 184, 0.6);
+	cursor: pointer;
+	border-radius: 2px;
+	color: #f6f6fa;
+	font-family: 'Exo', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=submit]:hover{
+	background: #d38105;
+}
+
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
